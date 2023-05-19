@@ -1,0 +1,227 @@
+@keyframes navanimation{
+    0%{opacity: 0; bottom:100px;}
+    100%{opacity: 1; bottom: 0px;}
+}
+@keyframes introoo {
+    0%{opacity: 0; left:100px;}
+    100%{opacity: 1; left: 0px;}
+}
+@keyframes profilepic {
+    0%{opacity: 0; right:100px;transform: rotate(30deg);}
+    100%{opacity: 1; right: 0px; transform: rotate(0deg);}
+}
+.navbar{
+    position: relative;
+    animation-name: navanimation;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+}
+.intro{
+    position: relative;
+    animation-name: introoo;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+}
+.profile_picture{
+    position: relative;
+    animation-name: profilepic;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    text-align: center;
+}
+#pp:hover{
+    cursor: pointer;
+    filter: drop-shadow(0 0 0.75rem rgb(217, 220, 20));
+}
+html {
+    scrollbar-width: none;
+  }
+body::-webkit-scrollbar{
+    display: none;
+  }
+body {
+    -ms-overflow-style: none;
+  }
+h1 {  
+    margin-top: 20%;
+    padding-bottom: 20%;
+    padding-right: 20%;
+    font-family: 'Sacramento', cursive; 
+    font-size: 6rem;  
+    line-height: 1.5;  
+    font-weight: 900;
+}
+h2{
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+}
+p{
+    font-size: 1.5rem;
+    line-height: 2;
+    font-family: 'Montserrat', sans-serif;
+    color: #40514E;
+}
+.navbar{
+    padding-bottom: 6rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+.navbar-brand{
+    font-size: 2rem;
+}
+.btn{
+    margin: 10px;
+}
+.btnb{
+    padding-left: 80px;
+}
+.top{
+    background-color: #ffe599;
+    padding: 5% 10%;
+}
+.pp{
+    padding-left: 70px;
+    width: 80%;
+}
+.intro{
+    text-align: center;
+}
+.phone{
+    padding-left: 70px;
+    margin-top: 10%;
+    width: 80%;
+}
+.snd{
+    padding-top: 5%;
+    text-align: center;
+}
+.sndr{
+    margin: 50px auto;
+}
+.codeimg{
+    width: 15%;
+    float: left;
+}
+.Webimg{
+    width: 15%;
+    float: right;
+}
+.webd{
+    text-align: right;
+    padding-top: 5%;
+    margin: 2% auto;
+    width: 50%;
+}
+.cp{
+    text-align: left;
+    padding-top: 5%;
+    margin: 70px auto 0px;
+    width: 50%;
+}
+.pyimg{
+    float: left;
+    width: 15%;
+}
+.pyp{
+    text-align: left;
+    padding-top: 5%;
+    margin: 5% auto;
+    width: 50%;
+}
+.trrd{
+    padding-top: 5%;
+    text-align: center;
+    background-color: #ffe599;
+}
+.youtubesection{
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+.youp{
+    padding-top: 3%;
+    margin: 1% auto;
+    width: 50%;
+}
+.logo{
+    padding: 13% 0;
+    margin-bottom: 3%;
+}
+.frth{
+    padding-top: 5%;
+    text-align: center;
+}
+.contpart{
+    margin-top: 5%;
+}
+.cer{
+    width: 60%;
+}
+
+       /* LINKEDIN */
+
+.linkedin{
+    padding-left: 30%;
+}
+.lkpara{
+    padding-top: 4%;
+    text-align: left;
+}
+.lkimg{
+    width: 15%;
+    float: left;
+}
+
+
+       /* GITHUB */
+
+
+
+.github{
+    padding-right: 30%;
+    padding-top: 6%;
+}
+.gitpara{
+    padding-top: 4%;
+    text-align: right;
+}
+ .gitimg{
+    width: 15%;
+    float: right;
+}
+
+       /* INSTAGRAM */
+
+.instagram{
+    padding-left: 30%;
+    padding-top: 6%;
+}
+
+.instapara{
+    padding-top: 4%;
+    text-align: left;
+    margin-bottom: 6%;
+}
+.instaimg{
+    width: 15%;
+    float: left;
+}
+.conlink{
+    text-decoration: none;
+}
+
+       /* BTM */
+
+.btm{
+    padding-left: 50%;
+    background-color: #ffe599;
+    padding-bottom: 1rem;
+}
+.copy{
+    padding-top: 8px;
+}
